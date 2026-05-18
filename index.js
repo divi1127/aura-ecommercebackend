@@ -32,7 +32,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // CORS setup
 app.use(cors({
-  origin: '*', // For development flexibility
+  origin: 'https://aura-ecommerce-2z4p.vercel.app', // For development flexibility
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
